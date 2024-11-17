@@ -1,0 +1,70 @@
+@import url("reset.css");
+@import url("common.css");
+
+.profile-container{
+    background-color: var(--color-gray-800);
+    padding: 26px;
+    border-radius: 8px;
+}
+
+.profile-container > p {
+    text-align: center;
+    
+}
+
+.avatar{
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+.profile-name{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.location{
+    color: var(--color-green);
+    font-weight: 500;
+    margin-bottom: 28px;
+    font-size: 14px;
+}
+
+.about{
+    font-weight: 300;
+    margin-bottom: 24px;
+    font-size: 13px;
+}
+
+.socials-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.socials-item{
+    background-color: var(--color-gray-700);
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 
+        background-color var(--transition), 
+        color var(--transition);
+}
+
+.socials-item:hover{
+    background-color: var(--color-green);
+    color: var(--color-gray-900);
+}
+
+.socials-link{
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+}
+
+
+
